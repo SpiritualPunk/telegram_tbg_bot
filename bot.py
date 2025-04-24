@@ -1,7 +1,4 @@
-# 🔐 ВСТАВЬ СЮДА СВОЙ ТОКЕН!
-# API_ID = 28496196  # Получи на https://my.telegram.org
-# API_HASH = "0036e0666d926243553c5fe91cd84137"
-#BOT_TOKEN = "8138850956:AAEtGNSsxpefcIMsy1K3mFl3n-f7KV1E4aQ"
+
 
 import os
 import sqlite3
