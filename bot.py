@@ -11,9 +11,9 @@ from pyrogram import Client, filters, idle
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 
 # 🔐 ВСТАВЬ СВОИ ДАННЫЕ
-API_ID = 28496196  # получи на https://my.telegram.org
-API_HASH = "0036e0666d926243553c5fe91cd84137"
-BOT_TOKEN = "8138850956:AAEtGNSsxpefcIMsy1K3mFl3n-f7KV1E4aQ"
+API_ID = int(os.getenv("API_ID"))
+API_HASH = os.getenv("API_HASH")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 # 🗂️ Путь к базе данных (абсолютный путь — важно для PythonAnywhere)
 DB_PATH = os.path.join(os.path.dirname(__file__), "users.db")
